@@ -1,0 +1,49 @@
+/*
+Auteurs : 
+Warren Madanamoothoo 
+Emmanuel Halter 
+
+Mail :
+kingdomdesire@gmail.com
+*/
+
+
+
+body {
+	background-color : #E6E6E6;
+	margin: 0 auto;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size:100%;
+}
+
+
+/****************   CONTENT : 3 articles  ****************/
+#content {
+	width: 85%;
+	background-color: #CEE3F6;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#content p {
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: 2%;
+}
+
+#content strong {
+	color: #DF7401;
+}
+
+aside {
+	width: 100%;
+	text-align: center;
+	padding-top: 1%;
+	margin: auto;
+	display: block;
+}

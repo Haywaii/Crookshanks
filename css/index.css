@@ -1,0 +1,138 @@
+/*
+Auteurs : 
+Warren Madanamoothoo 
+Emmanuel Halter 
+
+Mail :
+kingdomdesire@gmail.com
+*/
+
+
+
+body {
+	background-color : #E6E6E6;
+	margin: 0 auto;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size:100%;
+}
+
+/****************   CONTENT : NEWS + PRESENTATION  ****************/
+#content {
+	width: 80%;
+	background-color : #CEE3F6;
+	margin: auto;
+	padding-bottom: 30%;
+}
+
+section[name="presentation"], section[name="flux"]{
+	width: 100%;
+	/*display: inline-block;*/
+}
+
+section[name="presentation"] img {
+	width: 100%;
+}
+
+section[name="presentation"] p, h1 {
+	padding-top: 2%;
+}
+
+section[name="presentation"] h1 {
+	font-size: 2rem;
+}
+
+section[name="presentation"] {
+	text-align: center;
+	display: inline-block;
+}
+
+section[name="flux"] h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 5%;
+}
+
+#news {
+	width: 95%;
+	/*height: 23.65rem;*/
+	float: left;
+	margin-left: 2%;
+	/*margin-right : 5%;*/
+	display: inline-block;
+	background-color : #FFCB60;
+	border: 1px solid #1560BD;
+}
+
+.nationales, .internationales, .crookshanks {
+	height: 2.5rem;
+	margin: auto;
+	margin-bottom: 1%;
+}
+
+.nationales:hover{
+	background-color: #1E7FCB;
+	background-repeat: no-repeat;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.internationales:hover{
+	background-color: #FBFBEF;
+	background-repeat: no-repeat;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.crookshanks:hover{
+	background-color: #F6CECE;
+	background-repeat: no-repeat;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.nationales p, .internationales p, .crookshanks p {
+	text-transform : uppercase;
+	font-family : Oxygen;
+	padding-left: 5%;
+	margin-top: 8%;
+}
+
+.nationales p {
+	color : #2E9AFE;
+	
+}
+.internationales  p {
+	color : #DBA901;
+}
+.crookshanks  p {
+	color : #FA5858;
+}
+
+.type {
+	display: inline-block;
+	width: 20%;
+	margin-left: 6%;
+}
+
+.content {
+	display: inline;
+	width: 55%;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+}
+
+.content a:visited {
+	color: blue;
+}
+
+.date {
+	display: inline;
+	width: 15%;
+	float: right;
+	color: #585858;
+	margin-top: 1%;
+}

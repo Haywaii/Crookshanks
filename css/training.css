@@ -1,0 +1,61 @@
+/*
+Auteurs : 
+Warren Madanamoothoo 
+Emmanuel Halter 
+
+Mail :
+kingdomdesire@gmail.com
+*/
+
+
+body {
+	background-color : #E6E6E6;
+	margin: 0 auto;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size:100%;
+}
+
+
+/****************   CONTENT : DESCRIPTION + MAP  ****************/
+#content {
+	width: 85%;
+	background-color : #CEE3F6;
+	margin: auto;
+	padding-bottom: 5%;
+}
+
+#content img {
+	width: 100%;
+	padding-bottom: 3%;
+}
+
+section[name="training"] p {
+	text-align: center;
+	width: 100%;
+	padding-bottom: 1%;
+}
+
+section[name="training"]  iframe{
+	padding-top: 2%;
+	text-align:center;
+	margin: auto;
+}
+
+section[name="training"]  strong {
+	color: #DBA901;
+}
+
+section div {
+	padding-top: 5%;
+}
+
+section iframe { 
+	width: 65%; 
+	height: 32rem; 
+	display: block;
+	margin: auto;
+}

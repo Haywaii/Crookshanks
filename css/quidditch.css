@@ -1,0 +1,101 @@
+/*
+Auteurs : 
+Warren Madanamoothoo 
+Emmanuel Halter 
+
+Mail :
+kingdomdesire@gmail.com
+*/
+
+
+body {
+	background-color : #E6E6E6;
+	margin: 0 auto;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size:100%;
+}
+
+
+/****************   CONTENT : 3 articles  ****************/
+#content {
+	width: 80%;
+	background-color: #CEE3F6;
+	margin: auto;
+}
+
+#content aside {
+	text-align: center;
+	padding-bottom : 2%;
+	padding-top: 2%;
+	font-style: italic;
+}
+
+section[name="history"] {
+	width: 100%;
+	margin-bottom: 8%;
+	padding-top: 5%;
+	text-align: justify;
+}
+
+section[name="history"] article {
+	width: 60%;
+	margin-left: 2%;
+	display: inline-block;
+}
+
+section[name="history"] img {
+	display: inline-block;
+	float: right;
+	border-radius: 5px;
+	margin-right: 7%;
+	margin-top: 7%;
+}
+
+section[name="question"] {
+	width: 100%;
+	margin-bottom: 8%;
+	margin-left: 2%;
+	text-align: justify;
+}
+
+section[name="rules"] {
+	width: 100%;
+	height: 38rem;
+	text-align: center;
+	padding-bottom: 8%;
+}
+
+/* .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 2%;
+	height: 100%;
+} */
+
+section[name="rules"] iframe {
+	position: absolute;
+	margin: auto;
+	margin-top: 2%;
+	width: 60%;
+	height: 30rem;
+	left: 21%;
+	border-radius: 10px;
+}
+
+.header_section {
+	font-family: Slabo;
+	font-size: 1.4rem;
+	padding-bottom: 2%;
+}
+
+.question {
+	color: red;
+}
+
+.answer {
+	color: blue;
+}

@@ -1,0 +1,214 @@
+/*
+Auteurs : 
+Warren Madanamoothoo 
+Emmanuel Halter 
+
+Mail :
+kingdomdesire@gmail.com
+*/
+
+
+
+* { 
+	padding: 0px;
+    border: 0px none;
+	outline: 0px none;
+    margin: 0px;
+	vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/****************   HEADER ****************/
+
+header[name="header"] {
+	width: 100%;
+	background-color: #A9BCF5;
+}
+
+header[name="header"]  hgroup {
+	width: 75%;
+	display: inline-block;
+}
+
+header[name="header"]  img {
+	display: inline-block;
+	margin-left: 15%;
+}
+
+header[name="header"]  h1 {
+	width: 24%;
+	font-size : 1.5rem;
+	font-family: 'PMN55',arial,verdana,sans-serif;
+	display: inline-block;
+	text-align: center;
+}
+
+header[name="header"]  h1[name="first"] {
+	position : absolute;
+	top: 2%;
+	left: 24%;
+}
+
+header[name="header"]  h1[name="second"] {
+	position : absolute;
+	top: 2%;
+	left: 44%;
+}
+
+header[name="header"]  figure {
+	width: 10%;
+	margin-top: 1%;
+	margin-left: 60%;
+}
+
+header[name="header"]  section {
+	width: 20%;
+	float: right;
+	margin-top: 1.8%;	
+}
+
+header[name="header"]  ul li {
+	list-style: none;
+	width: 32%;
+	display: inline-block;
+}
+
+header[name="header"]  ul li:hover {
+	color: red;
+}
+
+/****************   FOOTER ****************/
+footer[name="footer"] {
+	width: 100%;
+	height: 5rem;
+	background-color: #A9BCF5;
+	border-top: 2px solid #084B8A;
+	margin : auto;
+}
+
+footer[name="footer"]  section {
+	width: 45%;
+	display: inline-block;
+}
+
+section[name="quote"] {
+	float: left;
+	text-align: center;
+	padding-top: 1%;
+}
+
+section[name="about"] {
+	float : right;
+	text-align: center;
+	margin-top: 1%;
+}
+
+section[name="quote"] h2 {
+	font-size: 0.6rem;
+	text-align: center;
+	font-style: italic;
+	color: #304D90;
+}
+
+footer blockquote{    
+    text-align: center;
+	font-weight: normal;
+	font-size: 1rem;
+	color: #DF7401;
+}
+
+footer section[name="about"] p {
+	padding: 0% 0% 2%;
+	font-family: 'PMN55',arial,verdana,sans-serif;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+footer section[name="about"] a {
+	color: #2252A5;
+}
+
+small {
+	font-size: 70%;
+	font-family: 'PMN55',arial,verdana,sans-serif;
+}
+
+
+/****************   MENU   ****************/
+/*nav {
+	width: 12%;
+	background-color: #F8FBEF;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+}
+
+nav ul li {
+	list-style: none;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 1.1rem;	
+}
+
+nav ul[name="menu"] li:hover {
+	background-color: #EFF8FB;
+}
+
+nav ul[name="menu"] li:nth-child(1){
+	margin-top: 5%;
+}*/
+
+nav {
+	position : fixed;
+	z-index : 999;
+}
+
+nav a {
+	width : 50px;
+	height : 50px;
+	margin-left : 15px;
+	background :  #F2F2F2;
+	position : absolute;
+	overflow : hidden;
+	border : 1px solid #444;
+	border-radius : 0 0 5px 0;
+}
+
+.navlink {
+	padding : 0 15px 0 15px;
+	font-size : 13px;
+	color : white;
+	padding-left : 75px;
+	display : none;
+}
+
+#accueil {
+	background : url('./icons/home_2.png') no-repeat, rgba(150,150,150,0.60);
+}
+
+#quidditch {
+	background : url('./icons/snitch_2.png') no-repeat, rgba(150,150,150,0.96);
+}
+
+#clq {
+	background : url('./icons/qsn_2.png') no-repeat, rgba(150,150,150,0.96);
+}
+
+#joueurs {
+	background : url('./icons/team_2.png') no-repeat, rgba(150,150,150,0.96);
+}
+
+#photo {
+	background : url('./icons/photo_2.png') no-repeat, rgba(150,150,150,0.96);
+}
+
+#training {
+	background : url('./icons/forum_2.png') no-repeat, rgba(150,150,150,0.96);
+}
+
+#contact {
+	background : url('./icons/contact_2.png') no-repeat, rgba(150,150,150,0.96);
+}
