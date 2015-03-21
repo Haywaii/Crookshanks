@@ -1,0 +1,7 @@
+Header						 #286298
+Menu                         #40678c
+Fond                         #2c5c89
+Footer                       #265179
+Séparateur header/fond       #bb1515
+Police                       #000000
+Fond cadre principale        #dbdad8

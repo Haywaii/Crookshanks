@@ -10,22 +10,23 @@ kingdomdesire@gmail.com
 
 
 body {
-	background-color : #E6E6E6;
+	background-color : #2c5c89;
 	margin: 0 auto;
 }
 
 body, html {
 	width: 100%;
 	height: 100%;
-	font-size:100%;
+	font-size: 100%;
+	font-family: 'Gentium Book Basic', serif;
 }
 
 /****************   CONTENT : NEWS + PRESENTATION  ****************/
 #content {
 	width: 80%;
-	background-color : #CEE3F6;
+	background-color : #dbdad8;
 	margin: auto;
-	padding-bottom: 30%;
+	padding-bottom: 5%;
 }
 
 section[name="presentation"], section[name="flux"]{
@@ -37,7 +38,7 @@ section[name="presentation"] img {
 	width: 100%;
 }
 
-section[name="presentation"] p, h1 {
+section[name="presentation"] p, section[name="presentation"] h1 {
 	padding-top: 2%;
 }
 
@@ -56,15 +57,20 @@ section[name="flux"] h1 {
 	margin-top: 5%;
 }
 
+section[name="flux"]  {
+	text-align: center;
+}
+
 #news {
-	width: 95%;
+	width: 96%;
 	/*height: 23.65rem;*/
-	float: left;
-	margin-left: 2%;
-	/*margin-right : 5%;*/
+	margin: 0 auto;
 	display: inline-block;
-	background-color : #FFCB60;
+	background-color : #C0C0C0;
 	border: 1px solid #1560BD;
+	text-align: left;
+	box-shadow: 1px 1px 15px #555;
+	border-radius: 4px;
 }
 
 .nationales, .internationales, .crookshanks {
@@ -74,7 +80,7 @@ section[name="flux"] h1 {
 }
 
 .nationales:hover{
-	background-color: #1E7FCB;
+	background-color: #B5B1F2;
 	background-repeat: no-repeat;
 	border-radius: 10px 10px 10px 10px;
 }
@@ -93,7 +99,7 @@ section[name="flux"] h1 {
 
 .nationales p, .internationales p, .crookshanks p {
 	text-transform : uppercase;
-	font-family : Oxygen;
+	font-family: 'Gentium Book Basic', serif;
 	padding-left: 5%;
 	margin-top: 8%;
 }
