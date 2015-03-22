@@ -75,8 +75,8 @@ section[name="flux"]  {
 
 .nationales, .internationales, .crookshanks {
 	height: 2.5rem;
-	margin: auto;
 	margin-bottom: 1%;
+	margin-top: 1%;
 }
 
 .nationales:hover{
